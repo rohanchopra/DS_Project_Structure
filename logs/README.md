@@ -2,7 +2,19 @@
 
 ## Filename convention
 
-YYYY-MM-DDTHHMM.log
+~~~
+yyyy-MM-ddTHHmm.log
+~~~
 
-## Log entry format
+## Logging format
 
+~~~
+yyyy-MM-dd | HH:mm:ss.SSS | Module_Name  | LOG_LEVEL  | Filename         | 000425 | Message
+~~~
+
+## Log Levels
+
+- ERROR
+- WARN
+- DEBUG
+- INFO
