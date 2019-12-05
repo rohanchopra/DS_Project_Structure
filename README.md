@@ -22,6 +22,7 @@
 │  │  └── utils.py              <- Script for common utility functions
 │  ├── __init__.py              <- Makes src a Python module
 │  └── main.py                  <- Project's entry script
+├── .gitignore                  <- List of files and folders git should ignore
 ├── README.md                   <- The top-level README for developers using this project
 └── requirements.txt            <- The requirements file for reproducing the environment
 ```
