@@ -13,13 +13,12 @@
 ├── logs/                       <- Project logs
 ├── models/                     <- Trained models, predictions, and summaries
 ├── notebooks/                  <- Jupyter notebooks
-├── references                  <- Data dictionaries, and all other explanatory material
+├── references/                  <- Data dictionaries, and all other explanatory material
 ├── src/                        <- Source code for the project
-│  ├── modeling/                <- Scripts to train the modelS
+│  ├── modeling/                <- Scripts to train the models
 │  ├── processing/              <- Scripts to process the data to create the final dataset
 │  ├── scoring/                 <- Scripts to score the models
 │  ├── utils/                   <- Scripts for utility functions
-│    ├── custom_functions.py    <- Script for custom functions for the project
 │    └── utils.py               <- Script for common utility functions
 │  ├── __init__.py              <- Makes src a Python module
 │  └── main.py                  <- Project's entry script
@@ -54,4 +53,9 @@ yyyy-MM-ddTHHmm.log
 ### Model Files
 ```
 yyyyMMdd-description_of_model.h5
+```
+
+### Data Files
+```
+yyyyMMdd-description_of_data.h5
 ```
