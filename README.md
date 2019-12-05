@@ -13,13 +13,13 @@
 ├── logs/                       <- Project logs
 ├── models/                     <- Trained models, predictions, and summaries
 ├── notebooks/                  <- Jupyter notebooks
-├── references/                  <- Data dictionaries, and all other explanatory material
+├── references/                 <- Data dictionaries, and all other explanatory material
 ├── src/                        <- Source code for the project
 │  ├── modeling/                <- Scripts to train the models
 │  ├── processing/              <- Scripts to process the data to create the final dataset
 │  ├── scoring/                 <- Scripts to score the models
 │  ├── utils/                   <- Scripts for utility functions
-│    └── utils.py               <- Script for common utility functions
+│  │  └── utils.py              <- Script for common utility functions
 │  ├── __init__.py              <- Makes src a Python module
 │  └── main.py                  <- Project's entry script
 ├── README.md                   <- The top-level README for developers using this project
